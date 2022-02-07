@@ -9,8 +9,8 @@
 *{
     padding:0;
     margin:0;
- 
 }
+
 a{
     text-decoration: none;
 }
@@ -248,41 +248,207 @@ img{
 /* ---------------------
         skills  end
 ------------------------------ */
-/* #skill .left-skill ul li{
-    width:500px;
-    height:17px;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    margin-bottom: 50px;
+#skills header h4{
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+#skills .left-skill ul li{
+    width:450px;
+    height: 11px;
+    border: 1px solid transparent;
     position: relative;
+    margin-bottom: 20px;
+    font-family: var(--ff1);
+    font-size: 21px;
 }
-#skill .left-skill ul li:first-of-type::before{
+#skills .left-skill ul li:first-of-type{
+    border:1px solid #0dc91652;
+}
+#skills .left-skill ul li:first-of-type::after{
+    position:absolute;
     content: '';
-    position: absolute;
-    width:90%;
     height:100%;
-    top:0;
+    top: 0;
     left: 0;
-    background: #009E66;
+    background:#0dc91652;
+    animation: go 4s ease-in-out forwards;
+}
+@keyframes go {
+    0%{
+        width:0;
+    }
+    100%{
+        width:90%;
+    }
+}
+#skills .left-skill ul li:nth-of-type(2){
+    border:1px solid #0dbcc9ab;
+}
+#skills .left-skill ul li:nth-of-type(2)::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background:#0dbcc9ab;
+    animation: go4 4s ease-in-out forwards;
+}
+@keyframes go4 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:5%;
+    }
+}
+#skills .left-skill ul li:nth-of-type(3){
+    border:1px solid #0dbcc9ab;
+}
+#skills .left-skill ul li:nth-of-type(3)::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background:#0dbcc9ab;
+    animation: go5 4s ease-in-out forwards;
+}
+@keyframes go5 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:95%;
+    }
+}
+#skills .left-skill ul li:nth-of-type(4){
+    border:1px solid #0dbcc9ab;
+}
+#skills .left-skill ul li:nth-of-type(4)::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background:#0dbcc9ab;
+    animation: go6 4s ease-in-out forwards;
+}
+@keyframes go6 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:96%;
+    }
+}
+#skills .left-skill ul li:last-child{
+    border-color: #0456c8;
+}
+#skills .left-skill ul li:last-child::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background:#0456c8;
+    animation: go1 4s ease-in-out forwards;
+}
+@keyframes go1 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:73%;
+    }
+}
+#skills .right-skill ul li{
+    width:450px;
+    height: 11px;
+    border: 1px solid transparent;
+    position: relative;
+    margin-bottom: 20px !important;
+}
+#skills .right-skill ul li:first-of-type{
+    border:1px solid #d3c60e52;
+}
+#skills .right-skill ul li:first-of-type::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background: #d3c60e52;
+    animation: go2 4s ease-in-out forwards;
+}
+@keyframes go2 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:91%;
+    }
+}
+#skills .right-skill ul li:nth-of-type(2){
+    border:1px solid #d84f4f;
+}
+#skills .right-skill ul li:nth-of-type(2)::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background: #d84f4f;
+    animation: go9 4s ease-in-out forwards;
+}
+@keyframes go9 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:99%;
+    }
+}
+#skills .right-skill ul li:nth-of-type(3){
+    border:1px solid #d62d9052;
+}
+#skills .right-skill ul li:nth-of-type(3)::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background: #d62d9052;
+    animation: go8 4s ease-in-out forwards;
+}
+@keyframes go8 {
+    0%{
+        width:0;
+    }
+    100%{
+        width:99%;
+    }
+}
+#skills .right-skill ul li:last-child{
+    border-color: #3f04c8;
 }
 
-#skill .left-skill ul li:nth-child(2){
-    background: #7a632444;
+#skills .right-skill ul li:last-child::after{
+    position:absolute;
+    content: '';
+    height:100%;
+    top: 0;
+    left: 0;
+    background: #3f04c8;
+    animation: goto 4s ease-in-out forwards;
 }
-#skill .left-skill ul li:nth-child(4){
-    background: #e6074a07;
+@keyframes goto {
+    0%{
+        width:0;
+    }
+    100%{
+        width:35%;
+    }
 }
-#skill .left-skill ul li:nth-child(5){
-    background: #7507dd9d;
-}
-#skill .left-skill ul li:last-child{
-    background: #df0b5c;
-}
-
-#skill .left-skill ul{
-    margin-top:50px;
-} */
-
 /* ---------------------
         skills  start
 ------------------------------ */
@@ -291,7 +457,7 @@ img{
   portfolio  strat
 */
 #portfolio{
-    padding-top:300px;
+    padding-top:100px;
 }
 #portfolio .fidst-port{
     box-shadow: 30px -30px 20px rgb(0, 0, 0, .3);
@@ -475,7 +641,7 @@ img{
 }
 #contact .form1 input{
     height:45px;
-    width:600px;
+    width:500px;
     outline: none;
     border-radius: 5px;
     border-color: #1d3481;
@@ -576,6 +742,56 @@ img{
 /* ---------------
 back to top btn
 ------------------- */
+.color-picker{
+    position: fixed;
+    top:30%;
+    right:-120px;
+    background: var(--brand1);
+    height:27px;
+    width:120px;
+    z-index: 999;
+    transition: all linear .4s;
+}
+.color-switcher{
+    right:120px;
+}
+.color-picker .color{
+    position: absolute;
+    left: -25px;
+    background: rgba(248, 233, 233, 0.932);
+    color: var(--brand1);
+    cursor: pointer;
+}
+.color-picker .color i{
+    height: 27px;
+    width: 27px;
+    color: #b32f2f;
+    text-align: center;
+    line-height: 27px;
+    cursor: pointer;
+}
+.color-picker ul li{
+    height:20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+.color-picker ul li.default{
+    background: #0456c8;
+}
+.color-picker ul li.save{
+    background: #2fd44ac0;
+}
+.color-picker ul li.ui{
+    background: #9a0abec0;
+}
+.color-picker ul li.ux{
+    background: #443a37ee;
+}
+/* -------------------------
+    color picker
+------------------------------ */
 /* ------------------------------------
         cursor start
 ---------------------------------------- */

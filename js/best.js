@@ -1,6 +1,10 @@
 'use strict';
 $(document).ready(function(){
     // back to top btn
+    // color picker
+    $('.color-picker .color').on('click',function(){
+        $('.color-picker').toggleClass('.color-switcher');
+    });
     
     $(window).on('scroll',function(){
     
@@ -40,7 +44,18 @@ var typed = new Typed('.type', {
     backSpeed:50,
     loop:true,
   });
-  
+  var typed = new Typed('.my', {
+    strings: 
+    [
+
+    "my skills.",
+    "in some tools/language."
+     ],
+
+    typeSpeed:70,
+    backSpeed:70,
+    loop:true,
+  });
   
   AOS.init();
 

@@ -13,7 +13,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Comforter&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Oswald:wght@200;300;400;500;600;700&family=Quintessential&display=swap" rel="stylesheet"> 
     <!-- ------------------------ google font  -->
     <!-- --------- plugin   css --------- -->
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <link rel="stylesheet" href="css/venobox.min.css">
       <link rel="stylesheet" href="css/slick.css">
       <link rel="stylesheet" href="css/bootstrap.css">
@@ -21,7 +21,7 @@
       <!-- --------- plugin   css --------- -->
       <link rel="stylesheet" href="css/best.css">
 </head>
-<body class="bg-black">
+<body class="bg-secondary">
     <!-- ------------------
         NAVBAR START
     ------------------------- -->
@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="col-xl-7">
-                <div class="banner-img">
+                <div class="banner-img" data-aos="fade-down-left">
                     <img src="images/codder.e7fd0478451b8d72ff9b93b1ea475b66.svg" alt="coding" class="w-100 img-fluid">
                 </div>
             </div>
@@ -81,18 +81,18 @@
      <div class="container">
          <div class="row">
              <div class="col-xl-6">
-                 <div class="about-img">
+                 <div class="about-img"data-aos="fade-right">
                      <figure>
                          <img src="images/317da2_f6cf6a420aec473b9f38b3ecdebd4583.png" alt="about" class="w-100 img-fluid">
                      </figure>
                  </div>
              </div>
              <div class="col-xl-4 ms-auto">
-                 <div class="about-detail">
+                 <div class="about-detail" data-aos="fade-right">
                     <header>
                         <h2 class="mb-0 text-uppercase text-start col1 open-bold">about me</h2>
                     </header>
-                    <p class="ps-0 col1 text-start open-lig fs-14">hi!i am shaddam.i am a front-end developer.i have experience of 1 yeras.esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
+                    <p class="ps-0 col1 text-start open-lig fs-14" data-aos="flip-down">hi!i am shaddam.i am a front-end developer.i have experience of 1 yeras.esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam</p>
                     <button type="button" class="btn col1 text-center text-uppercase">see resume</button>
                  </div>
              </div>
@@ -105,49 +105,47 @@
  <!-- ------------------
         skills  start
  ------------------------- -->
- <!-- <section id="skill">
-     <div class="container">
-         <div class="row">
-             <div class="col-lg-6">
-                 <div class="left-skill text-uppercase">
-                    <h5 class="mb-0 fs-13 open-lig">my skills of some language.</h5>
-                    <h2 class="mb-0 open-bold fs-39">my skills</h2>
+ <section id="skills">
+    <div class="container">
+        <header>
+            <h4 class="my mb-0 text-uppercase col1 open-bold fs-23"></h4>
+            <!-- <h2 class="mb-0 text-uppercase col1 oen-bold fs-19">in some tools</h2> -->
+        </header>
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="left-skill col1">
+                    <ul class="mb-0 ps-0" data-aos="fade-down-right">
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">html5 <span>90%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">javascript <span>5%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">figma <span>95%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">psd to html <span>96%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">css3 <span>77%</span></h3>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <div class="right-skill col1">
+                    <ul class="mb-0 ps-0" data-aos="fade-down-right">
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">bootstrap5 <span>90%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">responsive design <span>99%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">scss <span>93%</span></h3>
+                        <li></li>
+                        <h3 class="mb-0 text-uppercase open-bold fs-21">jquery <span>35%</span></h3>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
 
-                    <ul class="mb-0 ps-0 text-uppercase">
-                        <span><h4 class="mb-0">html5       90%</h4></span>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">css3  80%</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">bootstrap5 75%</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">jquery 30%</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">figma 70%</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">responsive design for  all devices 90%</h4>
-                        <li></li>
-                    </ul>
-                 </div>
-             </div>
-             <div class="col-lg-6">
-                 <div class="right-skill">
-                    <ul class="mb-0 ps-0 text-uppercase">
-                        <h4 class="mb-0">psd to html</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">adobe photoshop</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">ui/ux</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">javascript</h4>
-                        <li></li>
-                        <h4 class="mb-0 fs-19 open-reg">scss</h4>
-                        <li></li>
-                    </ul>
-                 </div>
-             </div>
-         </div>
-     </div>
- </section> -->
+        </div>
+    </div>
+</section>
   <!-- ------------------
         skills  end
  ------------------------- -->
@@ -157,10 +155,10 @@
 <section id="portfolio">
     <div class="container">
         <header>
-            <h5 class="mb-0 text-uppercase open-lig fs-16">
+            <h5 class="mb-0 text-uppercase open-lig fs-16 col1">
                 please check my project
             </h5>
-            <h2 class="mb-0 text-uppercase fs-23 open-bold">my portfolio</h2>
+            <h2 class="mb-0 text-uppercase fs-23 open-bold col1">my portfolio</h2>
         </header>
         <div class="row">
             <div class="col-xl-12">
@@ -266,12 +264,12 @@
 <section id="service">
     <div class="container">
         <header>
-            <h2 class="mb-0 text-center text-uppercase fs-48 open-bold col1">My services</h2>
+            <h2 class="mb-0 text-center text-uppercase fs-48 open-bold col1" data-aos="slide-up">My services</h2>
             <div class="line text-center"></div>
         </header>
         <div class="row">
             <div class="col-xl-4">
-                <div class="first-serv">
+                <div class="first-serv" data-aos="slide-left">
                     <ul class="mb-0 ps-0 text-center">
                         <li><img src="images/protest.png" alt="services"></li>
                         <li><h2 class="mb-0 fs-23 open-bold text-uppercase col1">100% responsive</h2></li>
@@ -280,7 +278,7 @@
                 </div>
             </div>
             <div class="col-xl-4">
-                <div class="mid-serv">
+                <div class="mid-serv" data-aos="slide-down">
                     <ul class="mb-0 ps-0 text-center">
                         <li><img src="images/protest.png" alt="services"></li>
                         <li><h2 class="mb-0 fs-23 open-bold text-uppercase col1">mern stack</h2></li>
@@ -289,7 +287,7 @@
                 </div>
             </div>
             <div class="col-xl-4">
-                <div class="last-serv">
+                <div class="last-serv" data-aos="slide-right">
                     <ul class="mb-0 ps-0 text-center">
                         <li><img src="images/protest.png" alt="services"></li>
                         <li><h2 class="mb-0 fs-23 open-bold text-uppercase col1">seo friendly</h2></li>
@@ -310,19 +308,19 @@
 <section id="contact">
     <div class="container">
         <header>
-            <h2 class="head mb-0 text-uppercase fs-30 open-bold text-center col1">contact form</h2>
+            <h2 class="head mb-0 text-uppercase fs-30 open-bold text-center col1" data-aos="flip-down">contact form</h2>
             <div class="line text-center"></div>
         </header>
         <div class="row">
             <div class="col-xl-6">
-                <div class="form">
+                <div class="form" data-aos="flip-right">
                     <form action="">
                         <input type="text" class="text-center fs-15 open-bold" placeholder="Enter Your Name">
                     </form>
                 </div>
             </div>
             <div class="col-xl-6 ms-auto">
-                <div class="form1">
+                <div class="form1" data-aos="flip-left">
                     <form action="">
                         <input type="email" class="text-center fs-15 open-bold" placeholder="Enter Your Name">
                     </form>
@@ -331,11 +329,11 @@
         </div>
         <div class="row">
             <div class="col-xl-7">
-                <div class="message">
+                <div class="message" data-aos="fade-down-left">
                     <textarea name="" id="" cols="65" rows="5" aria-controls="none" class="text-center text-uppercase fs-15 open-bold" placeholder="Enter Your Message"></textarea>
                 </div>
             </div>
-            <div class="col-xl-5 ms-auto">
+            <div class="col-xl-5 ms-auto" data-aos="fade-down-left">
                 <div class="button2">
                     <button type="button" class="btn col1 text-uppercase text-center fs-32 open-reg">send us</button>
                 </div>
@@ -355,13 +353,13 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="mail-text">
-                    <div class="h2 mb-0 text-uppercase fs-21 open-reg text-center">join with me to get latest support and help</div>
+                    <div class="h2 mb-0 text-uppercase fs-21 open-reg text-center" data-aos="fade-in">join with me to get latest support and help</div>
                     <h5 class="mb-0 text-uppercase fs-17 open-lig text-center">you can subscribe here.</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="button-tag text-center">
+                    <div class="button-tag text-center" data-aos="fade-up">
                         <input type="email" placeholder="Your Email" class="text-center open-bold fs-14">
                         <button type="button" class="btn fs-15 open-lig text-uppercase">subscribe</button>
                     </div>
@@ -412,6 +410,32 @@
         footer   end
 -------------------------- -->
 
+
+<!-- ----------------------------
+        color picker
+---------------------------------- -->
+<div class="color-picker">
+    <div class="color">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <ul class="mb-0 ps-0 text-center d-flex align-items-center justify-content-evenly h-100">
+        <li class="default"></li>
+        <li class="save"></li>
+        <li class="ui"></li>
+        <li class="ux"></li>
+    </ul>
+</div>
+<!-- ---------------------------------
+        color picker
+-------------------------------------- -->
+
+
+
+
+
+
+
+
 <!-- 
  ------------------------
         cursor effect start
@@ -430,9 +454,14 @@
 
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+       duration: 3000,
+       delay: 2,
+    });
+  </script>
 <script src="js/jquery-2.2.4.min.js"></script>
 <script src="js/typed.min.js"></script>
-<script src="js/aos.js"></script>
 <script src="js/typed.js"></script>
 <script src="js/best.js"></script>
 </body>
